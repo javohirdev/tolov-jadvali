@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+}
+.container{
+  margin-top: 7rem;
+}
+.modal{
+  background-color: black;
+}
+#edit{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+#addBtn{
+  margin: -4rem 8rem auto;
+  background-color: transparent;
+  border: 3px solid lime;
+  color: white;
+  transition: all 0.3s ease-in;
+  box-shadow: none;
+  outline: none;
+}
+#addBtn:hover{
+  background-color: lime;
+  color: white;
+  transform: skew(-5deg);
+}
+#addBtn2{
+  transition: all 0.2s linear;
+}
+#addBtn2:hover{
+  transform: scale(1.1);
+}
